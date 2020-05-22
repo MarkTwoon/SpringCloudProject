@@ -1,0 +1,15 @@
+BODY    { font-size: 9pt; color: #000000; }
+TD	{ font-size: 9pt; color: #000000; }
+a:link, a:active, a:visited
+	{ font-size: 9pt;
+	  color: #000080;
+ 	  text-decoration: none; }
+a:hover { font-size: 9pt;
+	  color: FFFFFF;
+          background: 0000FF;
+	  text-decoration: underline;}
+.input	{ height:18; }
+.backs  { BACKGROUND-COLOR: #C8C8C8; }
+.backq  { BACKGROUND-COLOR: #F0F0F0; }
+.help   { border:1px solid white; padding:5px; position: relative; z-index: 1; font-size:10pt; font-family:Verdana; color:#FF0000 }
+.helpimg { cursor:hand }

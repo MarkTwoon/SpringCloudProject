@@ -1,0 +1,28 @@
+BODY,TD	{ font-size: 9pt; color: #000000; }
+a:link, a:active, a:visited
+	{ font-size: 9pt;
+	  color: #000080;
+ 	  text-decoration: none; }
+a:hover { font-size: 9pt;
+	  color: FFFFFF;
+          background: 0000FF;
+	  text-decoration: underline;}
+.log	{ height:18; width: 70}  /*首页登录*/
+.input	{ height:18; }
+.photo:hover 
+        { LEFT: 1px; POSITION: relative; TOP: 1px; TEXT-DECORATION: none; }
+.bg     { background-color: #3180BE }
+.sort   { border-top: 1px solid #C8C8C8; border-bottom: 1px solid #C8C8C8; background-color:#F7F7F7 } /*类别顶部*/
+.sortb  { background-color:#F7F7F7 } /*类别底部*/
+.cartshow { border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom: 1px solid #C0C0C0; } /*购物车*/
+.nb     { background-color:#3180BE; } /*无边框，背景色*/
+.tb     { border-top: 1px solid #DFE3DD; border-bottom: 1px solid #DFE3DD; } /*热销上下边框*/
+.lrb    { border-left: 1px solid #DFE3DD; border-right: 1px solid #DFE3DD; border-bottom: 1px solid #DFE3DD } /*热销左右上边框*/
+.pnew   { line-height:150%; margin-left:5px; margin-right:3px; margin-top:3px; margin-bottom:3px } /*首页新品、新闻段落*/
+.ileft  { border-top: 1px solid #18B296; border-bottom: 1px solid #18B296; } /*首页特价推荐左*/
+.iright { border-right: 1px solid #18B296; border-top: 1px solid #18B296; border-bottom: 1px solid #18B296;  } /*首页特价推荐右*/
+.viewl  { border-bottom: 1px solid #D7D7D7; background-color: #F2F2F2; color: #000080 } /*商品信息左*/
+.viewr  { border: 1px solid #D7D7D7; background-color:#EEF0ED } /*商品信息右上*/
+.viewr2 { border-left: 1px solid #D7D7D7; border-right: 1px solid #D7D7D7; border-bottom: 1px solid #D7D7D7; } /*商品信息右下*/
+.sort3  { border: 1px solid #C8C8C8; background-color: #F7F7F7 }
+.vtitle { font-size: 12pt; font-weight: bold; color: #0000FF }

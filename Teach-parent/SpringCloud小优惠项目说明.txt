@@ -1,0 +1,12 @@
+1.获取项目源代码后 
+导入有maven中央仓库环境整合的myeclipse2014集成开发工具中
+
+2.Teach-eurake1  Teach-orm  Teach-ioc为主要运行的业务微服务版块
+Teach-util 为工具类微服务版块  Teach-parent为总工程底层jar包支持
+
+项目启动顺序为 Teach-eurake1-->Teach-orm-->Teach-ioc
+分布式注册发现中心 至 架构数据持久层 至架构业务逻辑控制层 
+都有对应启动类的 主方法
+最后确定存在mysql指定项目数据库 并访问mysql库空间 连接成功后
+浏览器地址栏  http://localhost:8003/
+访问 IOC控制层的运行端口号 自动跳转默认 选择城市页面(首页)
